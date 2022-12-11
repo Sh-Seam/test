@@ -284,13 +284,13 @@ def intpu():
         url = 'https://ipinfo.io/json'
         resp = urlopen(url)
         data = json.load(resp)
-        data1 ="\n\u001b[32;1mIp:\u001b[34;1m---------------- \u001b[31;1m" +data['ip']
-        data2 ="\u001b[32;1mCity:\u001b[34;1m-------------- \u001b[31;1m"+data['city']
-        data3 ="\u001b[32;1mRegion:\u001b[34;1m------------ \u001b[31;1m" +data['region']
-        data4 ="\u001b[32;1mCountry:\u001b[34;1m----------- \u001b[31;1m"+data['country']
-        data5 ="\u001b[32;1mloctitude-latitude: \u001b[31;1m"+data['loc']
-        data6 ="\u001b[32;1mPostal:\u001b[34;1m------------ \u001b[31;1m"+data['postal']
-        data7 ="\u001b[32;1mTimezone:\u001b[34;1m---------- \u001b[31;1m"+data['timezone']  
+        data1 ="\n\u001b[32;1m               Ip:\u001b[34;1m---------------- \u001b[31;1m" +data['ip']
+        data2 ="\u001b[32;1m               City:\u001b[34;1m-------------- \u001b[31;1m"+data['city']
+        data3 ="\u001b[32;1m               Region:\u001b[34;1m------------ \u001b[31;1m" +data['region']
+        data4 ="\u001b[32;1m               Country:\u001b[34;1m----------- \u001b[31;1m"+data['country']
+        data5 ="\u001b[32;1m               loctitude-latitude: \u001b[31;1m"+data['loc']
+        data6 ="\u001b[32;1m               Postal:\u001b[34;1m------------ \u001b[31;1m"+data['postal']
+        data7 ="\u001b[32;1m               Timezone:\u001b[34;1m---------- \u001b[31;1m"+data['timezone']  
         dataAll =data1+"\n"+data2+"\n"+data3+"\n"+data4+"\n"+data5+"\n"+data6+"\n"+data7+'\n'
         print("\u001b[32;1m"+dataAll+"\u001b[0m")
         time.sleep(1)
