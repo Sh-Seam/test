@@ -255,6 +255,7 @@ def intpu():
             b = open("file/history.txt" , "a")
             b.write('\n'+'\n'+"\u001b[34;1m       ----------------------------------------------------"+'\n'+'\n       '+ Date+'\n'+"       \u001b[32;1mNumber: 0\u001b[31;1m"+number+"\n"+"       \u001b[32;1mAmount: \u001b[31;1m"+amount+"\n"+"       \u001b[32;1mDelay : \u001b[31;1m"+delay+"\u001b[0m")
             b.close()
+            return intpu()
 
         
         if __name__ == "__main__":
