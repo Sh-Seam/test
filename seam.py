@@ -276,7 +276,7 @@ def intpu():
         time.sleep(1)
         ret = input("\n\u001b[32;1m                    Press Enter to continue.......!\u001b[0m")
         if ret == int(0):
-            print(                    Oooops erro...re open to continue")
+            print("                    Oooops erro...re open to continue")
         else:
             return intpu()
 
