@@ -263,6 +263,7 @@ def intpu():
             update()
             main()
             hist()
+            intpu()
 
     
 
@@ -273,9 +274,9 @@ def intpu():
         ohist = ohist.read()
         print(ohist+"\n\n\n")
         time.sleep(1)
-        ret = input("\n\u001b[32;1m       Press Enter to continue.......!\u001b[0m")
+        ret = input("\n\u001b[32;1m                    Press Enter to continue.......!\u001b[0m")
         if ret == int(0):
-            print("       Oooops erro...re open to continue")
+            print(                    Oooops erro...re open to continue")
         else:
             return intpu()
 
@@ -293,16 +294,16 @@ def intpu():
         dataAll =data1+"\n"+data2+"\n"+data3+"\n"+data4+"\n"+data5+"\n"+data6+"\n"+data7+'\n'
         print("\u001b[32;1m"+dataAll+"\u001b[0m")
         time.sleep(1)
-        ret = input("\n\u001b[32;1m       Press Enter to continue.......!\u001b[0m")
+        ret = input("\n\u001b[32;1m                    Press Enter to continue.......!\u001b[0m")
         if ret == int(0):
-            print("       Oooops erro...re open to continue")
+            print("                    Oooops erro...re open to continue")
         else:
             return intpu()
 
 
     
     else:
-        print("\u001b[31;1mEnter correct number.....!\u001b[0m")
+        print("\u001b[31;1m                      Enter correct number.....!\u001b[0m")
         time.sleep(2)
         return intpu()
 
