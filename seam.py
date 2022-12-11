@@ -260,7 +260,7 @@ def intpu():
         
         if __name__ == "__main__":
             logo()
-            #update()
+            update()
             main()
             hist()
             intpu()
