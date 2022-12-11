@@ -245,25 +245,25 @@ def intpu():
             week =now.strftime("%A")
 
             Date="\u001b[93;1mDate  : "+hour+":"+minute+":"+second+" "+pm+" , "+week+" , "+date+" "+month+" "+year
-            print(Date)
+            
 
             number = str(main.number)
             amount = str(main.amount)
             delay = str(main.delay)
-            print("0"+number+"    "+amount+delay)
+            
     
             b = open("file/history.txt" , "a")
-            b.write('\n'+'\n'+"\u001b[34;1m       ----------------------------------------------------"+'\n'+'\n       '+ Date+'\n'+"       \u001b[32;1mNumber: \u001b[31;1m"+number+"\n"+"       \u001b[32;1mAmount: \u001b[31;1m"+amount+"\n"+"       \u001b[32;1mDelay : \u001b[31;1m"+delay+"\u001b[0m")
+            b.write('\n'+'\n'+"\u001b[34;1m       ----------------------------------------------------"+'\n'+'\n       '+ Date+'\n'+"       \u001b[32;1mNumber: 0\u001b[31;1m"+number+"\n"+"       \u001b[32;1mAmount: \u001b[31;1m"+amount+"\n"+"       \u001b[32;1mDelay : \u001b[31;1m"+delay+"\u001b[0m")
             b.close()
 
         
-            
+            intpu()
         if __name__ == "__main__":
             logo()
             update()
             main()
             hist()
-            intpu()
+            
 
     
 
