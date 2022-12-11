@@ -257,12 +257,12 @@ def intpu():
             b.close()
 
         
-            intpu()
         if __name__ == "__main__":
             logo()
             update()
             main()
             hist()
+            intpu()
             
 
     
