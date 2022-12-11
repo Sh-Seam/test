@@ -144,7 +144,7 @@ def intpu():
                 psb("\n\u001b[31;1m    [!]\u001b[32;1m Please Enter 11 Digit Number!\u001b[34;1m")
                 number = getNumber()
     
-            return number
+            #return number
 
 
         #Main    
