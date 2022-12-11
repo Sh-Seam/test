@@ -16,13 +16,13 @@ from more.data import *
 def intpu():
     os.system("clear")
     
-    print("\u001b[32;1m\n\n\n\n\n                ╔══════════════════════════════════════════╗")
-    print("\u001b[32;1m                ║ \u001b[34;1mEnter 1. => For Sms Bombing.   \u001b[32;1m          ║")
-    print("\u001b[32;1m                ║ \u001b[34;1mEnter 2. => To know your history.   \u001b[32;1m     ║")
-    print("\u001b[32;1m                ║ \u001b[34;1mEnter 3. => To know your IP information.\u001b[32;1m ║")
-    print("\u001b[32;1m                ╠══════════════════════════════════════════╣")
-    print("\u001b[32;1m                ║ \u001b[31;1mNote : To stop this tool Enter ctrl+Z.\u001b[32;1m   ║")
-    print("\u001b[32;1m                ╚══════════════════════════════════════════╝\n\n\n")
+    print("\u001b[32;1m\n\n\n\n\n               ╔══════════════════════════════════════════╗")
+    print("\u001b[32;1m               ║ \u001b[34;1mEnter 1. => For Sms Bombing.   \u001b[32;1m          ║")
+    print("\u001b[32;1m               ║ \u001b[34;1mEnter 2. => To know your history.   \u001b[32;1m     ║")
+    print("\u001b[32;1m               ║ \u001b[34;1mEnter 3. => To know your IP information.\u001b[32;1m ║")
+    print("\u001b[32;1m               ╠══════════════════════════════════════════╣")
+    print("\u001b[32;1m               ║ \u001b[31;1mNote : To stop this tool Enter ctrl+Z.\u001b[32;1m   ║")
+    print("\u001b[32;1m               ╚══════════════════════════════════════════╝\n\n\n")
     
 
     inpu = int(input("                      \u001b[33;1m⭐️\u001b[32;1m Enter Number =>   \u001b[0m"))
